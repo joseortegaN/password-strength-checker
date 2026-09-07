@@ -1,6 +1,6 @@
 # Comprobador de Fortaleza de Contraseñas
 
-Script en Python que evalúa la fortaleza de una contraseña y devuelve una puntuación de 0 a 4, sumando un punto por cada uno de estos criterios:
+Aplicación en Python con interfaz gráfica (tkinter) que evalúa la fortaleza de una contraseña en tiempo real y muestra una puntuación de 0 a 4, sumando un punto por cada uno de estos criterios:
 
 1. Longitud mínima de 8 caracteres
 2. Al menos una letra mayúscula
@@ -9,7 +9,7 @@ Script en Python que evalúa la fortaleza de una contraseña y devuelve una punt
 
 ## Requisitos
 
-- Python 3 instalado
+- Python 3 instalado (tkinter viene incluido de serie en la mayoría de instalaciones)
 
 ## Uso
 
@@ -17,7 +17,7 @@ Script en Python que evalúa la fortaleza de una contraseña y devuelve una punt
 python3 password_checker.py
 ```
 
-El programa pedirá una contraseña por teclado y mostrará la puntuación obtenida (`X/4`).
+Se abrirá una ventana donde puedes escribir la contraseña. Mientras escribes, se actualizan en tiempo real la barra de progreso, el nivel de fortaleza y la lista de criterios cumplidos. Hay una casilla "Mostrar" para ver la contraseña en texto plano.
 
 ## Informe de revisión de código
 
