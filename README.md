@@ -15,6 +15,8 @@ En la sección [Releases](../../releases) hay ejecutables listos para descargar 
 - **macOS**: `ComprobadorContrasenas-mac.zip` (descomprime y abre `ComprobadorContrasenas.app`)
 - **Linux**: `ComprobadorContrasenas-linux.zip` (descomprime y ejecuta `ComprobadorContrasenas`)
 
+> **Nota para macOS:** al abrir la app por primera vez, macOS avisará de que no puede verificar al desarrollador (normal para apps sin certificado de pago de Apple). Para abrirla: clic derecho (o Control+clic) sobre `ComprobadorContrasenas.app` → **Abrir** → confirmar **Abrir** en el aviso. Solo hace falta la primera vez.
+
 ## Uso desde el código fuente
 
 Requiere Python 3 (tkinter viene incluido de serie en la mayoría de instalaciones):
